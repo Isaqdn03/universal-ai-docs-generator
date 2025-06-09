@@ -4,7 +4,7 @@
 
 Generate production-ready documentation that enables immediate AI agent productivity for any software project.
 
-## ✨ New: One-Command Setup
+## ✨ One-Command Setup
 
 ```bash
 # Create everything you need in one command
