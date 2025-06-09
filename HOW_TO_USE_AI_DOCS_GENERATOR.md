@@ -2,6 +2,38 @@
 
 This guide shows you exactly how to use the AI documentation generator for any new project.
 
+## 📦 Installation Options
+
+### **🚀 Option 1: Global Installation (Recommended)**
+Install once, use anywhere:
+```bash
+# 1. Download this repository
+git clone https://github.com/your-repo/universal-ai-docs-generator.git
+cd universal-ai-docs-generator
+
+# 2. Install globally
+./setup_ai_docs_globally.sh
+
+# 3. Use from any project directory
+cd ~/my-new-project
+create-ai-docs.py --direct
+```
+
+### **⚡ Option 2: One-Time Download & Run**
+```bash
+# Download and run directly (no installation)
+curl -sSL https://raw.githubusercontent.com/your-repo/universal-ai-docs-generator/main/create_ai_docs.py > create_ai_docs.py
+chmod +x create_ai_docs.py
+./create_ai_docs.py --direct
+```
+
+### **📁 Option 3: Local Copy**
+```bash
+# Copy script to your project and run
+cp /path/to/downloaded/create_ai_docs.py .
+./create_ai_docs.py --direct
+```
+
 ## 🚀 Quick Start (Global Command)
 
 After running the setup, you now have a global `create-ai-docs.py` command available anywhere:
